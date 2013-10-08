@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>jQuery Shuffle String - hover</title>
+
+	<style type="text/css">
+
+		body {
+			background: #1abc9c;
+			margin: 0;
+			padding: 0;
+		}
+
+		h1 {
+			font-family: 'Quicksand', sans-serif;
+			font-weight: bold;
+			font-size: 3.5em;
+			text-transform: uppercase;
+			color: #2c3e50;
+		}
+
+		h2 {
+			padding: 0;
+			margin: 0;
+			cursor: pointer;
+			font-family: 'Quicksand', sans-serif;
+			font-weight: bold;
+			font-size: 3em;
+			text-transform: uppercase;
+			color: #16a085;
+		}
+	</style>
+
+	<link href='http://fonts.googleapis.com/css?family=Quicksand:700,800' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<h1> Demo </h1>
+	<h2 data-shuffle-type="hover" data-shuffle-data="hello stranger!!!">hello</h1>
+	<h2 data-shuffle-type="hover" data-shuffle-data="www.iknowaghost.com">about me</h1>
+	<h2 data-shuffle-type="hover" data-shuffle-data="joao@iknowaghost.com">contact</h1>
+
+	<script type="text/javascript" src="../lib/jquery/jquery.min.js"></script>
+	<script type="text/javascript" src="../src/jquery.shuffleString.js"></script>
+	<script type="text/javascript">
+
+	$('body').shuffleString();
+
+	</script>
+</body>
+</html>

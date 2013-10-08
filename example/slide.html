@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>jQuery Shuffle String - slide</title>
+
+	<style type="text/css">
+
+		body {
+			background: #e74c3c;
+			margin: 0;
+			padding: 5em 0;
+		}
+
+		h1 {
+			font-family: 'Quicksand', sans-serif;
+			font-weight: bold;
+			font-size: 3.5em;
+			text-transform: uppercase;
+			color: white;
+		}
+
+		h2 {
+			padding: 0;
+			margin: 0;
+			cursor: pointer;
+			font-family: 'Quicksand', sans-serif;
+			font-weight: bold;
+			font-size: 4em;
+			text-transform: uppercase;
+			color: #c0392b;
+		}
+	</style>
+
+	<link href='http://fonts.googleapis.com/css?family=Quicksand:700,800' rel='stylesheet' type='text/css'>
+</head>
+<body>
+
+	<h2 data-shuffle-type="slide" data-shuffle-data="Hope you like it!!!!">Hi! this is a demo</h1>
+
+	<script type="text/javascript" src="../lib/jquery/jquery.min.js"></script>
+	<script type="text/javascript" src="../src/jquery.shuffleString.js"></script>
+	<script type="text/javascript">
+
+	$('body').shuffleString();
+
+	</script>
+</body>
+</html>
