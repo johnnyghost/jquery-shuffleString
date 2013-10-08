@@ -1,3 +1,11 @@
+/*!
+ * jquery-shuffleString.js
+ * A jQuery plugin to shuffle a string.
+ *
+ * Original author: joao@iknowaghost.com
+ *
+ * Licensed under the MIT license
+ */
 (function (factory) {
     'use strict';
 
