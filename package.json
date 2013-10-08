@@ -1,0 +1,36 @@
+{
+	"name": "jquery-shuffleString",
+	"version": "0.1.0",
+	"description": "A jQuery plugin to shuffle a string.",
+	"main": "./src/jquery.shuffleString.js",
+
+	"repository": {
+		"type": "git",
+		"url": "git://github.com:johnnyghost/jquery-shuffleString.git"
+	},
+	"keywords": [
+		"shuffle",
+		"string",
+		"slide-string"
+	],
+	"author": {
+		"name": "Joao Henriques",
+		"email": "joao@iknowaghost.com",
+		"url": "www.iknowaghost.com"
+	},
+
+	"license": "MIT",
+	"readmeFilename": "README.md",
+
+	"bugs": {
+		"url": "https://github.com/johnnyghost/jquery-shuffleString/issues"
+	},
+
+	"devDependencies": {
+		"uglify-js": "*",
+		"grunt-contrib-jshint": "~0.6.3",
+	    "grunt-contrib-uglify": "~0.2.2",
+		"grunt-contrib-concat": "~0.3.0",
+		"grunt-shell": "~0.2.0"
+	}
+}
